@@ -1,5 +1,727 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BLADE — Precision is personal</title><meta name="description" content="A fictional premium barbershop website concept by VELQOZA."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23101010'/%3E%3Ctext x='15' y='48' fill='white' font-size='46' font-family='sans-serif'%3EB%3C/text%3E%3C/svg%3E"><style>
-:root{--bg:#111;--fg:#f2f2ef;--muted:#aaa;--line:#ffffff24}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;color:var(--fg);background:var(--bg);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.6}a{color:inherit;text-decoration:none}button,input,select{font:inherit}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #fff;outline-offset:5px}nav{position:absolute;top:0;left:0;z-index:5;width:100%;padding:24px 6vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.logo{font-weight:900;letter-spacing:-.07em;font-size:34px}.logo span{color:#888}.links{display:flex;gap:30px;align-items:center;font-size:14px}.outline{border:1px solid #fff8;padding:9px 17px}.hero{position:relative;isolation:isolate;min-height:850px;height:100svh;max-height:1100px;display:flex;align-items:center;padding:140px 6vw 110px}.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-3}.hero:before{position:absolute;content:'';inset:0;z-index:-2;background:linear-gradient(90deg,#111f 0%,#111b 40%,#1110 80%),linear-gradient(0deg,#111,transparent 35%)}.eyebrow{text-transform:uppercase;font-size:12px;letter-spacing:.2em;font-weight:bold;color:#bcbcbc}.hero h1{font-size:clamp(68px,9.2vw,144px);line-height:.86;letter-spacing:-.075em;margin:28px 0;font-weight:900}.hero h1 em{font-style:normal;color:transparent;-webkit-text-stroke:1px #ddd}.hero p{max-width:340px;color:#bbb;margin:30px 0}.button{display:inline-flex;justify-content:center;align-items:center;background:var(--fg);color:#111;padding:15px 27px;font-size:14px;font-weight:bold;border:0;cursor:pointer;transition:transform .2s,background .2s}.button:hover{transform:translateY(-3px);background:#ccc}.bottom{position:absolute;left:6vw;right:6vw;bottom:30px;display:flex;justify-content:space-between;color:#aaa;font-size:12px;letter-spacing:.13em}.ticker{background:#efefeb;color:#111;display:flex;justify-content:space-evenly;gap:20px;flex-wrap:wrap;padding:20px;font-size:13px;font-weight:bold;letter-spacing:.18em}.section{padding:95px 6vw}.heading{display:flex;align-items:flex-end;justify-content:space-between;gap:30px}.heading h2,.story h2,.booking h2{font-size:clamp(40px,5.4vw,80px);letter-spacing:-.065em;line-height:1;margin:20px 0 0}.heading p{max-width:280px;color:var(--muted);font-size:14px;margin:0}.services{display:grid;grid-template-columns:repeat(3,1fr);margin-top:45px;border:1px solid var(--line)}.service{padding:35px;display:flex;flex-direction:column;position:relative;overflow:hidden;border-right:1px solid var(--line)}.service:last-child{border:0}.number{font-size:12px;color:#888;letter-spacing:.2em}.service h3{font-size:27px;letter-spacing:-.04em;margin:35px 0 15px}.service p{font-size:14px;color:var(--muted);flex:1}.price{font-size:42px;font-weight:bold;letter-spacing:-.05em;margin:20px 0}.price small{font-size:14px;color:#aaa;font-weight:normal;letter-spacing:0}.service a{border-top:1px solid var(--line);padding-top:20px;font-size:14px}.service a:hover{text-decoration:underline}.service.featured{background:#e5e5e1;color:#111}.featured p,.featured .number,.featured .price small{color:#555}.featured a{border-color:#1113}.gallery-wrap{background:#191919}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}.gallery figure{margin:0}.crop{height:360px;overflow:hidden;position:relative;background:#222}.crop img{position:absolute;width:300%;max-width:none;height:100%;object-fit:cover;left:0;transition:transform .5s}.crop.mid img{left:-100%}.crop.last img{left:-200%}.gallery figure:hover img{transform:scale(1.035)}figcaption{display:flex;justify-content:space-between;font-size:14px;padding:17px 0;border-bottom:1px solid var(--line)}figcaption small{color:#999;font-size:12px}.story{display:grid;grid-template-columns:1fr 1.3fr;gap:90px;align-items:center}.story-image{position:relative;height:490px;overflow:hidden}.story-image img{width:100%;height:100%;object-fit:cover;object-position:75% center}.story-image:after{content:'DETAILS MAKE THE DIFFERENCE.';position:absolute;bottom:20px;left:25px;font-size:12px;letter-spacing:.15em;background:#1119;padding:10px}.story p{color:var(--muted);max-width:480px;margin:25px 0}.values{display:flex;gap:25px;font-size:12px;letter-spacing:.08em;margin-top:35px;color:#ddd;flex-wrap:wrap}.booking{border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:90px}.booking p{color:var(--muted);max-width:400px}.hours{font-size:14px;margin-top:35px;display:grid;grid-template-columns:1fr 1fr;gap:20px}.hours strong{display:block;color:#fff;margin-bottom:8px}.hours span{color:#aaa}form{display:grid;grid-template-columns:1fr 1fr;gap:18px}label{font-size:14px;color:#aaa}input,select{width:100%;display:block;margin-top:8px;padding:13px;background:#1b1b1b;color:#eee;border:1px solid #fff3;border-radius:0;color-scheme:dark}.full{grid-column:1/-1}.note{font-size:12px;margin:0!important}.feedback{font-size:14px;padding:15px;border:1px solid #fff6;grid-column:1/-1}footer{padding:30px 6vw 60px;display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--line);font-size:12px;color:#aaa}.badge{position:fixed;bottom:15px;right:15px;z-index:10;font-size:12px;padding:8px 12px;border:1px solid #fff4;background:#111e;backdrop-filter:blur(10px)}[hidden]{display:none!important}@media(max-width:750px){nav{padding:20px 6vw}.links{gap:15px}.links a:nth-child(2){display:none}.hero{min-height:760px;height:100svh;padding-top:160px}.hero h1{font-size:clamp(70px,15vw,100px)}.hero img{object-position:70% center}.hero:before{background:linear-gradient(90deg,#111e,#1117),linear-gradient(0deg,#111,transparent 50%)}.bottom{flex-direction:column;gap:8px}.ticker{font-size:11px;gap:12px}.ticker span:last-child{display:none}.section{padding:65px 6vw}.heading{align-items:flex-start;flex-direction:column}.services{grid-template-columns:1fr}.service{border:0;border-bottom:1px solid var(--line);padding:28px}.service h3{margin-top:20px}.gallery{grid-template-columns:1fr}.crop{height:410px}.story,.booking{grid-template-columns:1fr;gap:35px}.story-image{height:370px}.story h2{margin-top:20px}footer{align-items:flex-start;flex-direction:column;padding-bottom:80px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-</style></head><body><nav><a class="logo" href="#">BLADE<span> /</span></a><div class="links"><a href="#services">Services</a><a href="#cuts">Our cuts</a><a href="#book" class="outline">Book a cut</a></div></nav><main><section class="hero"><img src="barber.png" alt="A barber finishing a precise skin fade" fetchpriority="high"><div><span class="eyebrow">Modern barbering. Old-school care.</span><h1>LOOK<br>SHARP.<br><em>FEEL YOU.</em></h1><p>Clean fades. Sharp lines. A cut that works as well tomorrow as it does today.</p><a href="#book" class="button">Find your next cut</a></div><div class="bottom"><span>PRECISION IS PERSONAL.</span><span>TUESDAY–SATURDAY / 10:00–19:00</span></div></section><div class="ticker"><span>FADE /</span><span>TEXTURE /</span><span>BEARD /</span><span>PRECISION /</span><span>CONFIDENCE /</span></div><section id="services" class="section"><div class="heading"><div><span class="eyebrow">01 / The chair is yours</span><h2>YOUR STYLE.<br>OUR CRAFT.</h2></div><p>Every service starts with a consultation. Tell us what you like. We take care of the detail.</p></div><div class="services"><article class="service"><span class="number">01 / 35 MINUTES</span><h3>The signature cut</h3><p>Consultation, precision cut, clean neckline and a finish tailored to your hair.</p><div class="price">₪80 <small>/ session</small></div><a href="#book" data-service="The signature cut">Choose this service</a></article><article class="service featured"><span class="number">02 / 55 MINUTES</span><h3>The complete look</h3><p>Our signature haircut with beard sculpting, line-up and a warm towel finish.</p><div class="price">₪120 <small>/ session</small></div><a href="#book" data-service="The complete look">Choose this service</a></article><article class="service"><span class="number">03 / 20 MINUTES</span><h3>Beard & line-up</h3><p>A balanced shape, defined edges and beard care that suits your face.</p><div class="price">₪50 <small>/ session</small></div><a href="#book" data-service="Beard & line-up">Choose this service</a></article></div></section><section id="cuts" class="section gallery-wrap"><div class="heading"><div><span class="eyebrow">02 / The details speak</span><h2>CUT ABOVE.</h2></div><p>Three directions. One obsession with getting it right.</p></div><div class="gallery"><figure><div class="crop"><img src="cuts.png" alt="Textured crop with a clean skin fade" loading="lazy"></div><figcaption>Textured crop <small>01 / FADE</small></figcaption></figure><figure><div class="crop mid"><img src="cuts.png" alt="Slicked-back haircut with tapered sides" loading="lazy"></div><figcaption>Classic taper <small>02 / SHAPE</small></figcaption></figure><figure><div class="crop last"><img src="cuts.png" alt="Short fade and sculpted beard" loading="lazy"></div><figcaption>Cut & beard <small>03 / DETAIL</small></figcaption></figure></div></section><section class="section story"><div class="story-image"><img src="barber.png" alt="Careful clipper work around a client's fade" loading="lazy"></div><div><span class="eyebrow">03 / More than a haircut</span><h2>NO RUSH.<br>NO GUESSWORK.</h2><p>We listen before we pick up the clippers. From your hair texture to your everyday routine, your cut should fit you.</p><p>A relaxed chair, clean tools and time for the details. That's the BLADE way.</p><div class="values"><span>CONSULTATION FIRST</span><span>PERSONAL FINISH</span><span>DETAIL ALWAYS</span></div></div></section><section id="book" class="section booking"><div><span class="eyebrow">04 / Make time for yourself</span><h2>YOUR NEXT<br>GOOD HAIR DAY.</h2><p>Choose a service and preview your visit with our demo booking form.</p><div class="hours"><div><strong>Opening hours</strong><span>Tue–Sat / 10:00–19:00<br>Sun–Mon / Closed</span></div><div><strong>Your appointment</strong><span>Please arrive 5 minutes early.<br>All styles welcome.</span></div></div></div><form id="booking"><label class="full">Your name<input name="name" placeholder="Full name" autocomplete="name" required maxlength="80"></label><label class="full">Email<input name="email" type="email" placeholder="you@example.com" autocomplete="email" required></label><label class="full">Service<select id="service" name="service"><option>The signature cut</option><option>The complete look</option><option>Beard & line-up</option></select></label><label>Date<input name="date" id="date" type="date" required></label><label>Time<select name="time"><option>10:00</option><option>11:00</option><option>12:00</option><option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option></select></label><button class="button full" type="submit">Preview appointment</button><p class="note full">Demo only. No appointment is sent and no personal information is saved.</p><div class="feedback" id="feedback" role="status" hidden></div></form></section></main><footer><a class="logo" href="#">BLADE /</a><span>Fictional barbershop · Portfolio concept by VELQOZA</span><a href="https://velqoza.com/work.html">Discover VELQOZA</a></footer><div class="badge">VELQOZA / DEMO CONCEPT</div><script>
-const date=document.getElementById('date');const now=new Date();date.min=[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');document.querySelectorAll('[data-service]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('service').value=a.dataset.service}));document.getElementById('booking').addEventListener('submit',e=>{e.preventDefault();const fd=new FormData(e.currentTarget);const d=new Date(fd.get('date')+'T12:00:00');const out=document.getElementById('feedback');out.hidden=false;if(d.getDay()===0||d.getDay()===1){out.textContent='The shop is closed on Sunday and Monday. Please choose Tuesday–Saturday.';return}out.textContent='Appointment preview: '+fd.get('service')+' on '+d.toLocaleDateString('en-GB',{day:'numeric',month:'long'})+' at '+fd.get('time')+'. Demo only — no appointment has been booked.'});
-</script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>BLADE — Precision is personal</title>
+    <meta name="description" content="A fictional premium barbershop website concept by VELQOZA.">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23101010'/%3E%3Ctext x='15' y='48' fill='white' font-size='46' font-family='sans-serif'%3EB%3C/text%3E%3C/svg%3E">
+    <style>
+        :root {
+            --bg: #111;
+            --fg: #f2f2ef;
+            --muted: #aaa;
+            --line: #ffffff24
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px
+        }
+
+        body {
+            margin: 0;
+            color: var(--fg);
+            background: var(--bg);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.6
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        button,
+        input,
+        select {
+            font: inherit
+        }
+
+        a:focus-visible,
+        button:focus-visible,
+        input:focus-visible,
+        select:focus-visible {
+            outline: 2px solid #fff;
+            outline-offset: 5px
+        }
+
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            width: 100%;
+            padding: 24px 6vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--line)
+        }
+
+        .logo {
+            font-weight: 900;
+            letter-spacing: -.07em;
+            font-size: 34px
+        }
+
+        .logo span {
+            color: #888
+        }
+
+        .links {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            font-size: 14px
+        }
+
+        .outline {
+            border: 1px solid #fff8;
+            padding: 9px 17px
+        }
+
+        .hero {
+            position: relative;
+            isolation: isolate;
+            min-height: 850px;
+            height: 100svh;
+            max-height: 1100px;
+            display: flex;
+            align-items: center;
+            padding: 140px 6vw 110px
+        }
+
+        .hero img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -3
+        }
+
+        .hero:before {
+            position: absolute;
+            content: '';
+            inset: 0;
+            z-index: -2;
+            background: linear-gradient(90deg, #111f 0%, #111b 40%, #1110 80%), linear-gradient(0deg, #111, transparent 35%)
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: .2em;
+            font-weight: bold;
+            color: #bcbcbc
+        }
+
+        .hero h1 {
+            font-size: clamp(68px, 9.2vw, 144px);
+            line-height: .86;
+            letter-spacing: -.075em;
+            margin: 28px 0;
+            font-weight: 900
+        }
+
+        .hero h1 em {
+            font-style: normal;
+            color: transparent;
+            -webkit-text-stroke: 1px #ddd
+        }
+
+        .hero p {
+            max-width: 340px;
+            color: #bbb;
+            margin: 30px 0
+        }
+
+        .button {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--fg);
+            color: #111;
+            padding: 15px 27px;
+            font-size: 14px;
+            font-weight: bold;
+            border: 0;
+            cursor: pointer;
+            transition: transform .2s, background .2s
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            background: #ccc
+        }
+
+        .bottom {
+            position: absolute;
+            left: 6vw;
+            right: 6vw;
+            bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            color: #aaa;
+            font-size: 12px;
+            letter-spacing: .13em
+        }
+
+        .ticker {
+            background: #efefeb;
+            color: #111;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: .18em
+        }
+
+        .section {
+            padding: 95px 6vw
+        }
+
+        .heading {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 30px
+        }
+
+        .heading h2,
+        .story h2,
+        .booking h2 {
+            font-size: clamp(40px, 5.4vw, 80px);
+            letter-spacing: -.065em;
+            line-height: 1;
+            margin: 20px 0 0
+        }
+
+        .heading p {
+            max-width: 280px;
+            color: var(--muted);
+            font-size: 14px;
+            margin: 0
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 45px;
+            border: 1px solid var(--line)
+        }
+
+        .service {
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            border-right: 1px solid var(--line)
+        }
+
+        .service:last-child {
+            border: 0
+        }
+
+        .number {
+            font-size: 12px;
+            color: #888;
+            letter-spacing: .2em
+        }
+
+        .service h3 {
+            font-size: 27px;
+            letter-spacing: -.04em;
+            margin: 35px 0 15px
+        }
+
+        .service p {
+            font-size: 14px;
+            color: var(--muted);
+            flex: 1
+        }
+
+        .price {
+            font-size: 42px;
+            font-weight: bold;
+            letter-spacing: -.05em;
+            margin: 20px 0
+        }
+
+        .price small {
+            font-size: 14px;
+            color: #aaa;
+            font-weight: normal;
+            letter-spacing: 0
+        }
+
+        .service a {
+            border-top: 1px solid var(--line);
+            padding-top: 20px;
+            font-size: 14px
+        }
+
+        .service a:hover {
+            text-decoration: underline
+        }
+
+        .service.featured {
+            background: #e5e5e1;
+            color: #111
+        }
+
+        .featured p,
+        .featured .number,
+        .featured .price small {
+            color: #555
+        }
+
+        .featured a {
+            border-color: #1113
+        }
+
+        .gallery-wrap {
+            background: #191919
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 40px
+        }
+
+        .gallery figure {
+            margin: 0
+        }
+
+        .crop {
+            height: 360px;
+            overflow: hidden;
+            position: relative;
+            background: #222
+        }
+
+        .crop img {
+            position: absolute;
+            width: 300%;
+            max-width: none;
+            height: 100%;
+            object-fit: cover;
+            left: 0;
+            transition: transform .5s
+        }
+
+        .crop.mid img {
+            left: -100%
+        }
+
+        .crop.last img {
+            left: -200%
+        }
+
+        .gallery figure:hover img {
+            transform: scale(1.035)
+        }
+
+        figcaption {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            padding: 17px 0;
+            border-bottom: 1px solid var(--line)
+        }
+
+        figcaption small {
+            color: #999;
+            font-size: 12px
+        }
+
+        .story {
+            display: grid;
+            grid-template-columns: 1fr 1.3fr;
+            gap: 90px;
+            align-items: center
+        }
+
+        .story-image {
+            position: relative;
+            height: 490px;
+            overflow: hidden
+        }
+
+        .story-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 75% center
+        }
+
+        .story-image:after {
+            content: 'DETAILS MAKE THE DIFFERENCE.';
+            position: absolute;
+            bottom: 20px;
+            left: 25px;
+            font-size: 12px;
+            letter-spacing: .15em;
+            background: #1119;
+            padding: 10px
+        }
+
+        .story p {
+            color: var(--muted);
+            max-width: 480px;
+            margin: 25px 0
+        }
+
+        .values {
+            display: flex;
+            gap: 25px;
+            font-size: 12px;
+            letter-spacing: .08em;
+            margin-top: 35px;
+            color: #ddd;
+            flex-wrap: wrap
+        }
+
+        .booking {
+            border-top: 1px solid var(--line);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 90px
+        }
+
+        .booking p {
+            color: var(--muted);
+            max-width: 400px
+        }
+
+        .hours {
+            font-size: 14px;
+            margin-top: 35px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px
+        }
+
+        .hours strong {
+            display: block;
+            color: #fff;
+            margin-bottom: 8px
+        }
+
+        .hours span {
+            color: #aaa
+        }
+
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px
+        }
+
+        label {
+            font-size: 14px;
+            color: #aaa
+        }
+
+        input,
+        select {
+            width: 100%;
+            display: block;
+            margin-top: 8px;
+            padding: 13px;
+            background: #1b1b1b;
+            color: #eee;
+            border: 1px solid #fff3;
+            border-radius: 0;
+            color-scheme: dark
+        }
+
+        .full {
+            grid-column: 1/-1
+        }
+
+        .note {
+            font-size: 12px;
+            margin: 0 !important
+        }
+
+        .feedback {
+            font-size: 14px;
+            padding: 15px;
+            border: 1px solid #fff6;
+            grid-column: 1/-1
+        }
+
+        footer {
+            padding: 30px 6vw 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            border-top: 1px solid var(--line);
+            font-size: 12px;
+            color: #aaa
+        }
+
+        .badge {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            z-index: 10;
+            font-size: 12px;
+            padding: 8px 12px;
+            border: 1px solid #fff4;
+            background: #111e;
+            backdrop-filter: blur(10px)
+        }
+
+        [hidden] {
+            display: none !important
+        }
+
+        @media(max-width:750px) {
+            nav {
+                padding: 20px 6vw
+            }
+
+            .links {
+                gap: 15px
+            }
+
+            .links a:nth-child(2) {
+                display: none
+            }
+
+            .hero {
+                min-height: 760px;
+                height: 100svh;
+                padding-top: 160px
+            }
+
+            .hero h1 {
+                font-size: clamp(70px, 15vw, 100px)
+            }
+
+            .hero img {
+                object-position: 70% center
+            }
+
+            .hero:before {
+                background: linear-gradient(90deg, #111e, #1117), linear-gradient(0deg, #111, transparent 50%)
+            }
+
+            .bottom {
+                flex-direction: column;
+                gap: 8px
+            }
+
+            .ticker {
+                font-size: 11px;
+                gap: 12px
+            }
+
+            .ticker span:last-child {
+                display: none
+            }
+
+            .section {
+                padding: 65px 6vw
+            }
+
+            .heading {
+                align-items: flex-start;
+                flex-direction: column
+            }
+
+            .services {
+                grid-template-columns: 1fr
+            }
+
+            .service {
+                border: 0;
+                border-bottom: 1px solid var(--line);
+                padding: 28px
+            }
+
+            .service h3 {
+                margin-top: 20px
+            }
+
+            .gallery {
+                grid-template-columns: 1fr
+            }
+
+            .crop {
+                height: 410px
+            }
+
+            .story,
+            .booking {
+                grid-template-columns: 1fr;
+                gap: 35px
+            }
+
+            .story-image {
+                height: 370px
+            }
+
+            .story h2 {
+                margin-top: 20px
+            }
+
+            footer {
+                align-items: flex-start;
+                flex-direction: column;
+                padding-bottom: 80px
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            * {
+                transition: none !important
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav><a class="logo" href="#">BLADE<span> /</span></a>
+        <div class="links"><a href="#services">Services</a><a href="#cuts">Our cuts</a><a href="#book"
+                class="outline">Book a cut</a></div>
+    </nav>
+    <main>
+        <section class="hero"><img src="barber.png" alt="A barber finishing a precise skin fade" fetchpriority="high">
+            <div><span class="eyebrow">Modern barbering. Old-school care.</span>
+                <h1>LOOK<br>SHARP.<br><em>FEEL YOU.</em></h1>
+                <p>Clean fades. Sharp lines. A cut that works as well tomorrow as it does today.</p><a href="#book"
+                    class="button">Find your next cut</a>
+            </div>
+            <div class="bottom"><span>PRECISION IS PERSONAL.</span><span>TUESDAY–SATURDAY / 10:00–19:00</span></div>
+        </section>
+        <div class="ticker"><span>FADE /</span><span>TEXTURE /</span><span>BEARD /</span><span>PRECISION
+                /</span><span>CONFIDENCE /</span></div>
+        <section id="services" class="section">
+            <div class="heading">
+                <div><span class="eyebrow">01 / The chair is yours</span>
+                    <h2>YOUR STYLE.<br>OUR CRAFT.</h2>
+                </div>
+                <p>Every service starts with a consultation. Tell us what you like. We take care of the detail.</p>
+            </div>
+            <div class="services">
+                <article class="service"><span class="number">01 / 35 MINUTES</span>
+                    <h3>The signature cut</h3>
+                    <p>Consultation, precision cut, clean neckline and a finish tailored to your hair.</p>
+                    <div class="price">$80 <small>/ session</small></div><a href="#book"
+                        data-service="The signature cut">Choose this service</a>
+                </article>
+                <article class="service featured"><span class="number">02 / 55 MINUTES</span>
+                    <h3>The complete look</h3>
+                    <p>Our signature haircut with beard sculpting, line-up and a warm towel finish.</p>
+                    <div class="price">$120 <small>/ session</small></div><a href="#book"
+                        data-service="The complete look">Choose this service</a>
+                </article>
+                <article class="service"><span class="number">03 / 20 MINUTES</span>
+                    <h3>Beard & line-up</h3>
+                    <p>A balanced shape, defined edges and beard care that suits your face.</p>
+                    <div class="price">$50 <small>/ session</small></div><a href="#book"
+                        data-service="Beard & line-up">Choose this service</a>
+                </article>
+            </div>
+        </section>
+        <section id="cuts" class="section gallery-wrap">
+            <div class="heading">
+                <div><span class="eyebrow">02 / The details speak</span>
+                    <h2>CUT ABOVE.</h2>
+                </div>
+                <p>Three directions. One obsession with getting it right.</p>
+            </div>
+            <div class="gallery">
+                <figure>
+                    <div class="crop"><img src="cuts.png" alt="Textured crop with a clean skin fade" loading="lazy">
+                    </div>
+                    <figcaption>Textured crop <small>01 / FADE</small></figcaption>
+                </figure>
+                <figure>
+                    <div class="crop mid"><img src="cuts.png" alt="Slicked-back haircut with tapered sides"
+                            loading="lazy"></div>
+                    <figcaption>Classic taper <small>02 / SHAPE</small></figcaption>
+                </figure>
+                <figure>
+                    <div class="crop last"><img src="cuts.png" alt="Short fade and sculpted beard" loading="lazy"></div>
+                    <figcaption>Cut & beard <small>03 / DETAIL</small></figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="section story">
+            <div class="story-image"><img src="barber.png" alt="Careful clipper work around a client's fade"
+                    loading="lazy"></div>
+            <div><span class="eyebrow">03 / More than a haircut</span>
+                <h2>NO RUSH.<br>NO GUESSWORK.</h2>
+                <p>We listen before we pick up the clippers. From your hair texture to your everyday routine, your cut
+                    should fit you.</p>
+                <p>A relaxed chair, clean tools and time for the details. That's the BLADE way.</p>
+                <div class="values"><span>CONSULTATION FIRST</span><span>PERSONAL FINISH</span><span>DETAIL
+                        ALWAYS</span></div>
+            </div>
+        </section>
+        <section id="book" class="section booking">
+            <div><span class="eyebrow">04 / Make time for yourself</span>
+                <h2>YOUR NEXT<br>GOOD HAIR DAY.</h2>
+                <p>Choose a service and preview your visit with our demo booking form.</p>
+                <div class="hours">
+                    <div><strong>Opening hours</strong><span>Tue–Sat / 10:00–19:00<br>Sun–Mon / Closed</span></div>
+                    <div><strong>Your appointment</strong><span>Please arrive 5 minutes early.<br>All styles
+                            welcome.</span></div>
+                </div>
+            </div>
+            <form id="booking"><label class="full">Your name<input name="name" placeholder="Full name"
+                        autocomplete="name" required maxlength="80"></label><label class="full">Email<input name="email"
+                        type="email" placeholder="you@example.com" autocomplete="email" required></label><label
+                    class="full">Service<select id="service" name="service">
+                        <option>The signature cut</option>
+                        <option>The complete look</option>
+                        <option>Beard & line-up</option>
+                    </select></label><label>Date<input name="date" id="date" type="date"
+                        required></label><label>Time<select name="time">
+                        <option>10:00</option>
+                        <option>11:00</option>
+                        <option>12:00</option>
+                        <option>13:00</option>
+                        <option>14:00</option>
+                        <option>15:00</option>
+                        <option>16:00</option>
+                        <option>17:00</option>
+                        <option>18:00</option>
+                    </select></label><button class="button full" type="submit">Preview appointment</button>
+                <p class="note full">Demo only. No appointment is sent and no personal information is saved.</p>
+                <div class="feedback" id="feedback" role="status" hidden></div>
+            </form>
+        </section>
+    </main>
+    <footer><a class="logo" href="#">BLADE /</a><span>Fictional barbershop · Portfolio concept by VELQOZA</span><a
+            href="https://velqoza.com/work.html">Discover VELQOZA</a></footer>
+    <div class="badge">VELQOZA / DEMO CONCEPT</div>
+    <script>
+        const date = document.getElementById('date'); const now = new Date(); date.min = [now.getFullYear(), String(now.getMonth() + 1).padStart(2, '0'), String(now.getDate()).padStart(2, '0')].join('-'); document.querySelectorAll('[data-service]').forEach(a => a.addEventListener('click', () => {document.getElementById('service').value = a.dataset.service})); document.getElementById('booking').addEventListener('submit', e => {e.preventDefault(); const fd = new FormData(e.currentTarget); const d = new Date(fd.get('date') + 'T12:00:00'); const out = document.getElementById('feedback'); out.hidden = false; if (d.getDay() === 0 || d.getDay() === 1) {out.textContent = 'The shop is closed on Sunday and Monday. Please choose Tuesday–Saturday.'; return } out.textContent = 'Appointment preview: ' + fd.get('service') + ' on ' + d.toLocaleDateString('en-GB', {day: 'numeric', month: 'long'}) + ' at ' + fd.get('time') + '. Demo only — no appointment has been booked.'});
+    </script>
+</body>
+
+</html>
